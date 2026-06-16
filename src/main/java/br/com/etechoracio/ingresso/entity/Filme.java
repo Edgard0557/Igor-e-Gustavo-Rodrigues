@@ -8,7 +8,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.Duration;
+<<<<<<< HEAD
 import java.util.List;
+=======
+>>>>>>> 35fcc899f05db4af25e603ea916fae6846c52b15
 
 @Getter
 @Setter
@@ -57,7 +60,10 @@ public class Filme {
     @Column(name = "CHK_EM_CARTAZ")
     private SimNaoEnum emCartaz;
 
+<<<<<<< HEAD
     @OneToMany(mappedBy = "filme")
     private List<Sessao> sessaos;
 
+=======
+>>>>>>> 35fcc899f05db4af25e603ea916fae6846c52b15
 }

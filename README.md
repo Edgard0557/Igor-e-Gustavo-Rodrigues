@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # pw3-ingresso
 
 Igor Edgard Rosa Lopez
@@ -29,3 +30,6 @@ CREATE TABLE FILME (
 );
 
 alter table sessao add constraint Fk_FILME_sessao foreign key (filme) references FILME(ID_FILME);
+=======
+# pw3-ingresso
+>>>>>>> 35fcc899f05db4af25e603ea916fae6846c52b15
